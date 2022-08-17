@@ -5,7 +5,6 @@ export default function Upload() {
   const { data: session } = useSession();
   return (
     <div className="h-full bg-gray-900">
-      <Header />
       <div className="flex items-center justify-center h-full text-5xl text-white">
         {session ? (
           <div>You are Logged In!</div>
